@@ -20,6 +20,12 @@ pdflatex artigo
 
 Se tudo correr bem você deve ver um arquivo chamado `artigo.pdf` em seu diretório. Agora tem um arquivo pdf gerado apartir de seu LaTeX.
 
+## Ferramentas Úteis
+
+Abaixo estão citados links de ferramentas que podem ajudar a criar estruturas em LaTeX.
+
+- Gerador de Tabelas - [https://www.tablesgenerator.com](https://www.tablesgenerator.com)
+
 ## Onde vejo mais sobre?
 
 Para mais informações sobre LaTex eu aprender acerca dele, veja os seguintes links:
