@@ -1,0 +1,37 @@
+\documentclass{article}
+
+% Este pacote server para acentuação
+\usepackage[utf8]{inputenc}
+
+% Este pacote serve para colocar nomes em pt-br
+\usepackage[brazil]{babel}
+
+% Este pacote aplica identação a identação aos parágrafos corretamente
+\usepackage{indentfirst}
+
+% Este pacote gera texto aleatório
+\usepackage{lipsum}
+
+% Define a margem geral como 2 centímetros
+\usepackage[a4paper, margin=2cm]{geometry}
+
+% Permite adicionar fontes customizadas, mas de pende de um dos
+% seguintes compiladores LaTeX: xelatex ou lualatex
+\usepackage{fontspec}
+
+% Define o tamanhado da identação do parágrafo como 3cm
+\setlength{\parindent}{1.5cm}
+
+% Define o espaçamento entre os parágrafos
+\setlength{\parskip}{.5cm}
+
+% Define a fonte padrão do documento
+\setmainfont{times-new-roman.ttf}[Path=fonts/times-new-roman/]
+
+\begin{document}
+
+\section{Seção um}
+
+\lipsum[1-20]
+
+\end{document}
