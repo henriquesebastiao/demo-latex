@@ -5,5 +5,5 @@ wraplen = 80
 tabsize = 2
 tabchar = "space"
 stdin = false
-verbosity = "warn"
+verbosity = "error"
 lists = []
