@@ -6,9 +6,30 @@ Este repositório visa exemplificar casos de uso do LaTeX para escrita de textos
 
 Você precisará instalar uma distribuição LaTeX, como [TeX Live](https://www.tug.org/texlive/) no caso de sistemas Unix.
 
+> [!IMPORTANT]
+> Caso precise gerar PDFs com fontes customizadas, você precisará usar um compilador LaTeX que suporte isso como `xelatex` ou `lualatex`.
+
+### Compiladores LaTeX para PDF que já utilizei
+
+- `pdflatex` - para uso geral.
+- `xelatex` - para compilar PDFs com fontes customizadas.
+
 ### VS Code
 
 Caso você esteja utilizando VS Code, instale a extensão [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop), ela fará o build automaticamente para você. Caso precise de configurações adicionais da extensão verifique a [documentação](https://github.com/James-Yu/LaTeX-Workshop/wiki).
+
+> [!TIP]
+> Se for gerar um PDF com fontes customizadas pela extensão no VS Code, configure a variável [`latex-workshop.latex.recipes`](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipes) para usar o compilador compatível com fontes customizadas, como no seguinte exemplo:
+> ```json
+> "latex-workshop.latex.recipes": [
+>   {
+>     "name": "latexmk (xelatex)",
+>     "tools": [
+>       "xelatexmk"
+>     ]
+>   }
+> ]
+>```
 
 ### Linux
 
